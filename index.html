@@ -8,6 +8,36 @@
   <link href="css/main.css" rel="stylesheet"/>
 </head>
 <body>
+  <div id="app">
+    <header>
+      <h1>Famous Books Library</h1>
+    </header>
 
+    <main>
+      <section class="book-list">
+        <h2>Book List</h2>
+        <div v-if="error" class="error">{{ error }}</div>
+        <div v-if="loading" class="loading">Loading books...</div>
+        <ul v-else>
+          <li v-for="book in books" :key="book.id" @click="selectBook(book.id)">
+            {{ book.title }}
+          </li>
+        </ul>
+      </section>
+
+      <section v-if="details" class="details">
+        <img :src="details.image" :alt="details.title" class="book-cover">
+        <div class="book-info">
+          <h2>{{ details.title }}</h2>
+          <p><strong>Author:</strong> {{ details.author }}</p>
+          <p><strong>Release Year:</strong> {{ details.year }}</p>
+          <p>{{ details.description }}</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
