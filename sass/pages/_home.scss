@@ -1,0 +1,36 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f8f3e7;
+    color: #3e2c1e;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #app {
+    max-width: 1000px;
+    margin: 32px auto;
+    padding: 32px;
+    background-color: #fffdf6;
+    border: 2px solid #cbb88c;
+    box-shadow: 0 0 20px #4a2e1f;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 32px;
+    color: #5c4324;
+    border-bottom: 2px solid #d8c49c;
+    padding-bottom: 16px;
+  }
+  
+  .loader,
+  .error {
+    text-align: center;
+    color: #8b5e3c;
+    font-style: italic;
+    margin-top: 16px;
+  }
+ 
