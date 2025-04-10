@@ -4,35 +4,35 @@
       "author": "F. Scott Fitzgerald",
       "year": 1925,
       "description": "A portrait of the Roaring Twenties and a critique of the American Dream, centered on the mysterious millionaire Jay Gatsby.",
-      "image": "https://upload.wikimedia.org/wikipedia/en/f/f7/TheGreatGatsby_1925jacket.jpeg"
+      "image": "images/gatsby.jpg"
     },
     "mockingbird": {
       "title": "To Kill a Mockingbird",
       "author": "Harper Lee",
       "year": 1960,
       "description": "A compelling story of racial injustice and childhood in the Deep South through the eyes of young Scout Finch.",
-      "image": "https://upload.wikimedia.org/wikipedia/en/7/79/To_Kill_a_Mockingbird.JPG"
+      "image": "images/mockingbird.jpg"
     },
     "nineteeneightyfour": {
       "title": "1984",
       "author": "George Orwell",
       "year": 1949,
       "description": "A dystopian novel exploring surveillance, totalitarianism, and the manipulation of truth in a fictional superstate.",
-      "image": "https://upload.wikimedia.org/wikipedia/en/c/c3/1984first.jpg"
+      "image": "images/1984.jpg"
     },
     "mobydick": {
       "title": "Moby-Dick",
       "author": "Herman Melville",
       "year": 1851,
       "description": "An epic tale of revenge and obsession, as Captain Ahab hunts the elusive white whale across the oceans.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/Moby-Dick_FE_title_page.jpg"
+      "image": "images/mobydick.jpg"
     },
     "hobbit": {
         "title": "The Hobbit",
         "author": "J.R.R. Tolkien",
         "year": 1937,
         "description": "A fantasy tale following the journey of Bilbo Baggins, a reluctant hobbit who becomes an unlikely hero.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/Moby-Dick_FE_title_page.jpg"
+        "image": "images/hobbit.jpg"
       }
   }
   
